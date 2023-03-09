@@ -287,4 +287,99 @@ button:hover, button:focus {
     bottom: 0;
     width: 100%; 
   }
+<<<<<<< Updated upstream
 
+=======
+  main {
+    display: flex;
+    justify-content: center; /* center items horizontally */
+    align-items: center; /* center items vertically */
+  }
+  
+  .contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-info h1 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .contact-info a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .send-message {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .send-message form {
+    display: flex;
+    justify-content: center; /* center items horizontally */
+    align-items: center; /* center items vertically */
+    flex-wrap: wrap;
+  }
+  
+  .send-message label {
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .send-message input,
+  .send-message textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .send-message input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-message input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  @media (max-width: 767px) {
+    .contact-info,
+    .send-message {
+      max-width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+>>>>>>> Stashed changes
